@@ -53,6 +53,18 @@ export default function Home() {
         </a>
 
         <a
+          href="/about"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            About Section <span>-&gt;</span>
+          </h2>
+          <p>Click to check about us page.</p>
+        </a>
+
+        <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
           target="_blank"
