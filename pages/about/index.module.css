@@ -1,0 +1,5 @@
+.centered {
+  /*center contents*/
+  display: flex;
+  justify-content: center;
+}
