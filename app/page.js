@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Carousel vertical swipeToSlide>
+      <Carousel vertical swipeToSlide arrows dotPosition="left" infinite={true}>
         {newsItems.map((item, index) => {
           const imageUrl = item.IMAGE.includes('youtube') ? `https:${item.IMAGE}` : item.IMAGE;
           return (
