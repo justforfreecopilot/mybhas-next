@@ -7,11 +7,6 @@ import Loader from './Loader'; // Import the Loader component
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'Mybhas - Goan News',
-  description: 'Mybhas - Goan News',
-};
-
 export default function RootLayout({ children }) {
   const [loading, setLoading] = useState(true);
 
